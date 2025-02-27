@@ -15,5 +15,10 @@ namespace Week3
         {
             print("attacking!");
         }
+
+        public override void NotAttack()
+        {
+            print("I am not attacking");
+        }
     }
 }
