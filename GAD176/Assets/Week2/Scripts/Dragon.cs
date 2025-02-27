@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Week2
+namespace Week3
 {
     public class Dragon : Enemy
     {
+        public override void WAter()
+        {
+            print("watering!");
+        }
+
         public override void Attack()
         {
-            throw new System.NotImplementedException();
+            print("attacking!");
         }
     }
 }
