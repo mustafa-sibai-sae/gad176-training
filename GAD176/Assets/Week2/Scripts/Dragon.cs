@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Week3
+namespace Week2
 {
     public class Dragon : Enemy
     {
-        public override void WAter()
+        public void Water()
         {
             print("watering!");
         }
@@ -16,7 +16,7 @@ namespace Week3
             print("attacking!");
         }
 
-        public override void NotAttack()
+        public void NotAttack()
         {
             print("I am not attacking");
         }
