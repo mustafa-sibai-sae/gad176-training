@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Week2
+//Delete this name space
+public class Dragon : Enemy
 {
-    public class Dragon : Enemy
+    public override void NotAttack()
     {
-        public override void Attack()
-        {
-            throw new System.NotImplementedException();
-        }
+        print("I am not attacking");
     }
 }
