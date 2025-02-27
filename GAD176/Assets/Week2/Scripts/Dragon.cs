@@ -6,19 +6,6 @@ namespace Week3
 {
     public class Dragon : Enemy
     {
-        public override void WAter()
-        {
-            print("watering!");
-        }
-
-        public override void Attack()
-        {
-            print("attacking!");
-        }
-
-        public override void NotAttack()
-        {
-            print("I am not attacking");
-        }
+        //nuked it. ha ha!
     }
 }
